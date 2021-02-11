@@ -11,7 +11,7 @@ function IndexPage(props) {
             <li key={idx}>
               <ProjectCard
                 title={blog.name}
-                href={`wwww.github.com/${blog.slug}`}
+                href={`contributors/${blog.slug}`}
                 description={blog.bio}
               />
             </li>
